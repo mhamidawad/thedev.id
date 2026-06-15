@@ -26,7 +26,7 @@ jobs:
 
     - name: Install dependencies and sort JSON
       run: |
-        npm ci
+        npm install
         npm run sort
 
     - name: Commit and Push Changes
